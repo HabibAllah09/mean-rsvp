@@ -1,0 +1,14 @@
+/*--------------------
+       FOOTER
+--------------------*/
+
+// :host pseudo-class selector:
+//    to target styles in the element that hosts the component
+:host {
+    display: block;
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }

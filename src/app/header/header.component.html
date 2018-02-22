@@ -26,7 +26,16 @@
       When linking to this user/:name route, you can write:
         <a routerLink='/user/bob'>link to user component</a>
 
-  routerLinkActive - Lets you add a CSS class to an element when the link's route becomes active.
+  routerLinkActive - 
+  Lets you add a CSS class to an element when the link's route becomes active.
     how to use:
       <a routerLink="/user/bob" routerLinkActive="active-link">Bob</a>
+  
+  in other words, We'll specify:
+    1) the route we want to navigate to
+    2) the class to be applied when that route is active.
+  
+  [routerLinkActiveOptions] - 
+    to ensure an exact match to the / path in the case of the root route.
+    Otherwise, this link will receive the active class whenever any route containing / is active.
  -->

@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(private title: Title) { }
 
   ngOnInit() {
-    this.title.setTitle(this.pageTitle)
+    this.title.setTitle(this.pageTitle);
   }
 
 }
