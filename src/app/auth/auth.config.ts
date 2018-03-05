@@ -6,7 +6,7 @@ interface AuthConfig {
   AUDIENCE: string;
   REDIRECT: string;
   SCOPE: string;
-};
+}
 
 export const AUTH_CONFIG: AuthConfig = {
   CLIENT_ID: '1ufhfcTO3qA2mSjFvbna0746MKyJ4AFY',
